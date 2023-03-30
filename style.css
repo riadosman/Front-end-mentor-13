@@ -139,7 +139,7 @@ p span{
     body{
         background-image:url(./images/bg-mobile.png);
         background-size: cover;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .fylo {
         top: 167px;
@@ -160,5 +160,8 @@ p span{
     .left{
         bottom: 0px;
         left: 72px;
+    }
+    .t{
+        display: none;
     }
 }
